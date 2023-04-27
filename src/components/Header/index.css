@@ -1,0 +1,8 @@
+.header {
+  min-width: 55rem;
+  min-height: 7rem;
+  box-shadow: 0 0.298256rem 0.74564rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding-inline: 3rem;
+}
