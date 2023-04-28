@@ -59,7 +59,7 @@ export function Slider() {
                 variant="rectangular"
                 width={176}
                 height={58}
-                style={{ marginTop: 8 }}
+                style={{ marginTop: 8, borderRadius: 8.95 }}
               />
             </SwiperSlide>
           ))}
