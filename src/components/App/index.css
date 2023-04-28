@@ -1,4 +1,8 @@
 .app {
-  display: grid;
-  place-content: center;
+  max-width: 55rem;
+  margin-inline: auto;
+  background-color: white;
+  border-radius: 0.895rem;
+  overflow: hidden;
+  padding-bottom: 3rem;
 }

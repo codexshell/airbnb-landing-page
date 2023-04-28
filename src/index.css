@@ -14,11 +14,13 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 }
 
 body {
   min-width: 320px;
   min-height: 100vh;
   font-size: 1.6rem;
+  background-color: #444440;
+  display: grid;
+  place-content: center;
 }

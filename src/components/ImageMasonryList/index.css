@@ -1,10 +1,17 @@
-.list {
-  max-width: 39.591rem;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  place-content: center;
-  place-items: center;
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 23.2rem;
+  width: 39.591rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.image {
+.item-wrapper {
+  list-style-type: none;
+}
+
+.item {
+  border-radius: 0.895rem;
 }

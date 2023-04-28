@@ -1,0 +1,19 @@
+.online-experiences-section {
+  margin-top: 3.2rem;
+  font-family: "Poppins", sans-serif;
+  padding-left: 3.6rem;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 3.6rem;
+  line-height: 3.96rem;
+}
+
+.description {
+  margin-top: 1.6rem;
+  max-width: 32rem;
+  font-weight: 300;
+  line-height: 1.76rem;
+  margin-bottom: 4.9rem;
+}
