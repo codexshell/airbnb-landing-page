@@ -55,6 +55,12 @@ export function Slider() {
                 height={235}
                 className="slide-skeleton"
               />
+              <Skeleton
+                variant="rectangular"
+                width={176}
+                height={58}
+                style={{ marginTop: 8 }}
+              />
             </SwiperSlide>
           ))}
         </>
@@ -79,7 +85,11 @@ export function Slider() {
                   <span className="experience-total-reviews">
                     ({image.numberOfRatings})
                   </span>
-                  <img className="experience-ellipse" src={ellipse} alt="ellipse" />
+                  <img
+                    className="experience-ellipse"
+                    src={ellipse}
+                    alt="ellipse"
+                  />
                   <span className="experience-location">USA</span>
                 </div>
                 <p className="experience-trainer">

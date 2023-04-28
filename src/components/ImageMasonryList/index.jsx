@@ -1,5 +1,6 @@
 import { useState, useMemo } from "react";
 import PropTypes from "prop-types";
+import { Skeleton } from "@mui/material";
 
 import "./index.css";
 
@@ -52,9 +53,21 @@ export function ImageMasonryList() {
 
   return (
     <ul className={"container"}>
-      {status === "loading" && <div></div>}
-      {status === "loaded" &&
-        imageList.map((item) => <MasonryItem key={item.id} item={item} />)}
+      {status === "loaded" ? (
+        imageList.map((item) => <MasonryItem key={item.id} item={item} />)
+      ) : (
+        <>
+          {Array.from({ length: 15 }).map((_, index) => (
+            <Skeleton
+              key={index}
+              variant="rectangular"
+              width={73}
+              height={73}
+              className={"item-wrapper"}
+            />
+          ))}
+        </>
+      )}
     </ul>
   );
 }
